@@ -2,7 +2,7 @@ class Food {
   element: HTMLElement
 
   constructor() {
-    this.element = document.querySelector('.food')
+    this.element = document.querySelector('.food')!
   }
 
   // 获取食物的坐标

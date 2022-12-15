@@ -8,8 +8,8 @@ class Score {
   maxLevel: number
 
   constructor(maxLevel = 10, upScore = 10) {
-    this.ScoreEle = document.querySelector('.score')
-    this.LevelEle = document.querySelector('.level')
+    this.ScoreEle = document.querySelector('.score')!
+    this.LevelEle = document.querySelector('.level')!
     this.upScore = upScore
     this.maxLevel = maxLevel
   }

@@ -1,2 +1,3 @@
-import Food from './Food'
-import Score from "./Score";
+import Control from './Control'
+
+const control = new Control()
